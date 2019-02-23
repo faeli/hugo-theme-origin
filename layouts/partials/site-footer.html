@@ -1,9 +1,10 @@
 <footer>
 	<p>
-		<span style="float: right;">&copy; 2018</span>
+		<div class="copy_right">&copy; <lable class="date">{{ now.Format "2006"}}</lable></div>
 
 		<a href="{{ .Site.BaseURL }}">
 			<strong>{{ $.Site.Params.domain }}</strong>
 		</a>
 	</p>
 </footer>
+<!-- UPDATE: {{ now }}-->
